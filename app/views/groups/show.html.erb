@@ -5,7 +5,7 @@
 		<p class="fw-bold">$<%= @group.total_amount.round(2) %></p>
   </div>
   <div class="p-4 pt-0">
-    <%=image_tag @group.image, class: 'img-thumbnail ratio ratio-21x9' %>
+<%= image_tag @group.image.variant(resize_to_limit: [100, 100]) %>
     <p class="text-muted text-end pt-2"><%= @group.name %></p>
   </div>
 </div>
@@ -16,5 +16,8 @@
 <footer class="footer">
   <div class="d-grid gap-2">
     <%= link_to "Add new transaction", new_expense_path, class: "btn btn-success border-radius-none" %>
+  </div>
+  <div class="d-grid gap-2 mt-1">
+    <%= link_to "Back to Category", groups_path, class: "btn btn-success border-radius-none" %>
   </div>
 </footer>
