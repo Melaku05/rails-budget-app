@@ -1,0 +1,18 @@
+<%= form_with(model: @group) do |form| %>
+  <div class="container">
+
+      <div class='pb-2'>
+        <h5 class='text-center display-6'>Add a new category </h5>
+      </div>
+    <div class="m-3">
+      <%= form.text_field :name, autofocus: true, placeholder: "Name", class: "form-control", required: true %>
+    </div>
+    <div class="m-3">
+      <%= form.file_field :image, placeholder: "Image", class: "form-control", required: true %>
+    </div>
+
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <%= form.submit "Save", class: "btn btn-success" %>
+    </div>
+  </div>
+<% end %>
