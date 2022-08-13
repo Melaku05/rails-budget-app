@@ -53,7 +53,7 @@ You may also see any lint errors in the console.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Fsher07/recipe-app-rails/issues).
+Feel free to check the [issues page](https://github.com/Melaku05/rails-budget-app/issues).
 
 ## Show your support
 
