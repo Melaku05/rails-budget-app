@@ -6,7 +6,9 @@ The Ruby on Rails capstone project is to build a mobile web application where I 
 # Deployment
 
 [live demo on Heroku](https://rails-budget-app.herokuapp.com/)
-[video] (https://www.loom.com/share/0981d6a0b8254f57b6e32fcc03287925)
+
+
+[video] (https://www.loom.com/share/536e14a615cd4172a6b8829674d5242f)
 ## Built With
 
 - Ruby
