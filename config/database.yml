@@ -26,6 +26,7 @@ development:
   database: rails_budget_app_development
   username: m
   password: postgres
+  pool: 5
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
