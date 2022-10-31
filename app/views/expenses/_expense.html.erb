@@ -1,0 +1,10 @@
+<div class="container card mb-4">
+	<div class="p-4">
+		<div class="d-flex justify-content-between flex-column">
+			<h5><%= expense.name %></h5>
+			<small>$<%= expense.amount.round(2) %></small>
+			<%= button_to "Delete", expense_path(expense), :method => :delete, :class => "btn btn-danger btn-sm"%>
+		</div>
+		<small class='text-muted'><%= expense.created_at.strftime("%d %b %Y") %></small>
+	</div>
+</div>

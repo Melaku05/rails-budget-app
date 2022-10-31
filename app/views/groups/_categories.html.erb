@@ -1,0 +1,25 @@
+<% if @groups.any?%>
+<% @groups.each do |group| %>
+  <div class="card mb-3 p-2 container">
+    <div class="row">
+      <div class="col">
+        <%=image_tag group.image%>
+      </div>
+      <div class="col d-flex justify-content-evenly flex-column">
+          <h5 class="card-title "><%= link_to group.name, group_path(group), class: "text-decoration-none" %></h5>
+          <p class="card-text"><small class="text-muted fs-6"><%= group.created_at.strftime("%d-%b-%Y")%></small></p>
+      </div>
+      <div class="col d-flex justify-content-evenly flex-column">
+        <p> $<%= group.expenses.sum(:amount)%></p>
+        <%if can? :destroy, group %>
+          <%= button_to "Delete", group_path(group), method: :delete, class:"btn btn-danger btn-sm" %>
+        <%end%>
+      </div>
+    </div>
+  </div>
+<%end%>
+<%else%>
+  <p class="p-2 m-2 h3">No category added!!!</p>
+<%end%>
+
+

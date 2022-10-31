@@ -1,24 +1,60 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Rails-budget-app
+The Ruby on Rails capstone project is to build a mobile web application where I can manage my budget: I have a list of transactions associated with a category, so that I can see how much money I spent and on what. I will create a Ruby on Rails application that allows the user to: register and log in, so that the data is private to them.
 
-Things you may want to cover:
+# Deployment
 
-* Ruby version
+[live demo on Heroku](https://rails-budget-app.herokuapp.com/)
 
-* System dependencies
 
-* Configuration
+[video] (https://www.loom.com/share/536e14a615cd4172a6b8829674d5242f)
+## Built With
 
-* Database creation
+- Ruby
+- Ruby on rails
+- Postgresql
 
-* Database initialization
+## Get Started
 
-* How to run the test suite
+Get a local copy of project by cloning this repository, git clone https://github.com/Melaku05/rails-budget-app.git
 
-* Services (job queues, cache servers, search engines, etc.)
+### Available Scripts
 
-* Deployment instructions
+In the project directory, you can run:
 
-* ...
+**`Gem install rails`**
+
+Gets all the required dependencies of the projects.
+
+**`bundle install`**
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+
+## Authors
+
+👤 **Melaku Eshetu**
+
+- GitHub: [@Melaku05](https://github.com/Melaku05)
+- Twitter: [@eshetu](https://www.linkedin.com/in/melaku-eshetu/)
+- LinkedIn: [@Melaku Eshetu](https://www.linkedin.com/in/melaku-eshetu/)
+
+
+## Acknowledgments
+
+- [Microverse](https://www.microverse.org/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Melaku05/rails-budget-app/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!

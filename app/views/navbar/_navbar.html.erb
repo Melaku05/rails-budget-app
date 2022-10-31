@@ -1,4 +1,4 @@
-<% if user_signed_in? %>
+ <% if user_signed_in? %>
 <nav class="navbar navbar-expand-lg  bg-blue h-25">
   <div class="container-fluid">
       <%= link_to "Log out" , destroy_user_session_path, data: { turbo_method: :delete }, class:"nav-link text-white" %>
@@ -16,3 +16,4 @@
   </div>
 </nav>
 <% end %>
+
